@@ -1,0 +1,1 @@
+read d;date -d $d +%A
