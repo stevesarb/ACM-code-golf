@@ -1,0 +1,1 @@
+y,m,d=map(int,input().split('-'));m+=m<3 and 12;y-=m>12;print('Saturday Sunday Monday Tuesday Wednesday Thursday Friday'.split()[(d+13*(m+1)//5+y+y//4-y//100+y//400)%7])
